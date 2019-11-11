@@ -15,7 +15,7 @@ public class Movie {
   }
 
   public int getPriceCode() {
-      return _priceCode;
+      return _price.getPriceCode();
   }
 
   double getCharge(int daysRented) {
