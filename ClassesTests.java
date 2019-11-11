@@ -29,7 +29,7 @@ public class ClassesTests extends TestCase {
     me.addRental(rent_star_wars);
     me.addRental(rent_euveh_2);
 
-    String expected_statement = "Rental Record for Ana \n\tDriver\t3\n\tPulp Fiction\t2\n\tEra Uma Vez em Hollywood\t1\n\tStar Wars\t2\n\tEra Uma Vez em Hollywood\t3\nAmount owed is 22.5\nYou earned 8 frequent renter points";
+    String expected_statement = "Rental Record for Ana \n\tDriver\t3\n\tPulp Fiction\t2\n\tEra Uma Vez em Hollywood\t1\n\tStar Wars\t2\n\tEra Uma Vez em Hollywood\t3\nAmount owed is 22.5\nYou earned 7 frequent renter points";
     String customer_statement = me.statement();
     assertEquals(expected_statement, customer_statement);
   }
